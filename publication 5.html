@@ -252,35 +252,29 @@
                                     <img src="BKSCA ban1.jpg" alt="Publication cover" class="mil-scale" data-value-1=".90" data-value-2="1.15">
                                 </div>
 
-                                <div class="row">
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-30">
-                                            <img src="Faik FC1.jpg" alt="Publication cover">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-60">
-                                            <img src="Riski FC 1.png" alt="Publication cover">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-30">
-                                            <img src="Afwal FC 1.png" alt="Publication cover">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-30">
-                                            <img src="Lutfi FC 1.png" alt="Publication cover">
-                                        </div>
-
-                                    </div>
+                                <style>
+                                    .image-container {
+                                        width: 100%;
+                                        overflow: hidden;
+                                    }
+                                    .image-container img {
+                                        float: left;
+                                        width: 24%; /* Make sure images fit within the container */
+                                        height: auto;
+                                        margin-right: 1%; /* Optional: add spacing between images */
+                                    }
+                                    .image-container img:last-child {
+                                        margin-right: 0; /* Remove margin from the last image */
+                                    }
+                                </style>
+                                <title>Images in a Row</title>
+                            </head>
+                            <body>
+                                <div class="image-container">
+                                    <img src="Faik FC1.jpg" alt="Faik FC1">
+                                    <img src="Riski FC 1.png" alt="Riski FC 1">
+                                    <img src="Afwal FC 1.png" alt="Afwal FC 1">
+                                    <img src="Lutfi FC 1.png" alt="Lutfi FC 1">
                                 </div>
 
                                 <p class="mil-text-xl mil-dark mil-up mil-mb-60">PYNA</p>
